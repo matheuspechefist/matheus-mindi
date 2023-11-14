@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carretas MIDI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/bateria.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+
+    <h1>Carretas Midi</h1>
+
+    <section class="teclado">
+        <button class="tecla tecla_pom">1113</button>
+        <button class="tecla tecla_clap">113HW</button>
+        <button class="tecla tecla_tim">FNM</button>
+
+        <button class="tecla tecla_puff">340</button>
+        <button class="tecla tecla_splash">2428</button>
+        <button class="tecla tecla_toim">2422</button>
+
+        <button class="tecla tecla_psh">1260</button>
+        <button class="tecla tecla_tic">Conste</button>
+        <button class="tecla tecla_tom">1620</button>
+    </section>
+
+    <audio src="sounds/1113.mp3" id="som_tecla_pom"></audio>
+    <audio src="sounds/113HW.mp3" id="som_tecla_clap"></audio>
+    <audio src="sounds/FNM.mp3" id="som_tecla_tim"></audio>
+    <audio src="sounds/340.mp3" id="som_tecla_puff"></audio>
+    <audio src="sounds/2428.mp3" id="som_tecla_splash"></audio>
+    <audio src="sounds/2422.mp3" id="som_tecla_toim"></audio>
+    <audio src="sounds/1260.mp3" id="som_tecla_psh"></audio>
+    <audio src="sounds/Constellation.mp3" id="som_tecla_tic"></audio>
+    <audio src="sounds/1620.mp3" id="som_tecla_tom"></audio>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
